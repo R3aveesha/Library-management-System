@@ -1,0 +1,88 @@
+<html>
+	<head>
+	    <link rel="stylesheet" href="Style/Register correct.css">
+		<title>IABT University Library</title>
+		<link rel="icon" type="image/jpg" href="iwt/logo.jpg" sizes="32x32">
+		
+		<script type="text/javascript" src="Register.js"></script>
+	</head>
+
+	<body class="body">
+		<header class="h">
+			<img class="hb" src=""> 
+			<img class="img1" src="img/logo3.jpeg" alt="logo">
+			<img class="img2" src="img/avatar.png" alt="avatar">
+			<a class="login" href="login.html">Login</a>
+			<a class="reg" href="Register.html" >Register</a>
+			<h1 class="header">IABT UNIVERSITY LIBRARY</h1>
+
+			<!-- menu bar design -->
+			<ul class="menubar">
+				<li><a href="Home.php" >Home</a></li>
+            <li><a href="search.php">Search</a></li>
+            <li><a href="facilities.php">Facilities</a></li>
+            <li><a href="membership.php">Membership</a></li>
+            <li><a href="aboutus.php">About Us</a></li>
+            <li><a href="new arivals1.php">New Arrivals</a></li>
+            <li><a href="myprofile.php">My Profile</a></li>
+            <li><a href="Ask Librarian.html">Ask Librarian</a></li>
+        </ul>
+			
+		</header>
+		<hr  class="hr1"> 
+		<main class="content">
+		    
+			<div class="registration-form">
+				        <center>
+                        <h1><b>Registration Form</b></h1>
+                        <form action="register_details.php" method="post">
+                             
+                                <label for="textbox1">Full Name:</label>
+                             <input type="text" name="full_name" placeholder="Enter Your Full Name Here" required><br>
+				             <br>
+				             <label for="textbox2">NIC:</label>   
+                             <input type="text" name="nic" placeholder="Enter Your NIC Here" required><br>
+				             <br>
+				             <label for="textbox3">Contact NO:</label>
+                             <input type="text" name="contact_no"   placeholder="Enter Your Contact NO Here" required><br>
+				              <br>
+				              <label for="textbox4">E-mail:</label>
+                             <input type="text" name="email"  placeholder="Enter Your E-mailHere" required><br>
+				              <br>
+				              <label for="textbox5">Uni ID:</label>
+				             <input type="text" name="uni_id"   placeholder="Enter Your UNI ID Here" required><br>
+                             <br>
+                                  <label for="textbox6">Gender:</label>
+                             <input type="radio" name="gender" value="male" >Male
+                             <input type="radio" name="gender" value="female" >Female
+                             <input type="radio" name="gender" value="not_to_say" >Prefer not to say<br>
+                             <br>
+                                   <label for="textbox7">Date of Birth:</label>
+		                     <input type="Date" name="birthday"   placeholder="Select Birthday" required><br>
+				
+				         <br>
+				               <label for="textbox8">Create Password:</label>
+                             <input type="text" name="create_password" placeholder="Use more than 8 characters" required><br>
+				             <br>    
+				                <label for="textbox9">Confirm Password:</label>
+                             <input type="text" name="confirm_password"  placeholder="Enter Your password again Here" required><br>
+				             <br>
+				             <label for="textbox10">You are a:</label>
+                             <input type="radio" name="status" value="student" >Student
+                             <input type="radio" name="status" value="staff(acc)"  >Staff(Acc.)
+                             <input type="radio" name="status" value="staff(non_acc)" >Staff(Non Acc.)<br>
+                             <br>
+                             <input  type="submit" name="save" value="submit">
+				             </center>
+			</div>
+		</main>
+		
+		<hr class="hr2">
+		<footer>
+			<h3 class="footer">IABT UNIVERSITY LIBRARY<br>
+				Bandaranayake road,<br>
+				Colombo 05.
+			</h3>
+		</footer>
+	</body>
+</html>

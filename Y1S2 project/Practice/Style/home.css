@@ -1,0 +1,235 @@
+.body
+{
+	display: box;
+	margin: 0;
+	background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.h
+{
+	background:linear-gradient(to bottom, #ffdf80 0%, #cc6600 100%);
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+}
+
+.img1
+{
+	margin-right: 10px;
+	padding-left: 50px;
+	padding-top: 10px;
+	width: 150px;
+	height:150px;
+}
+
+.img2
+{
+	top: 0px;
+	float: right;
+	width: 60px;
+	height: 60px;
+	padding-right: 20px;
+}
+
+.header
+{
+	position: fixed;
+	top: 20px;
+	left: 580px;
+	font-size: 50;
+	font-family: Britannic;
+	text-align: center;
+}
+
+.login
+{
+	top: 0px;
+	text-decoration: none;
+	float: right;
+	padding: 15px;
+	font-size: 20px;
+}
+
+.reg
+{
+	top: 0px;
+	text-decoration: none;
+	float: right;
+	padding: 15px;
+	font-size: 20px;
+	padding-right: 0;
+}
+
+.menubar
+{
+	list-style-type: none;
+	text-align: center;
+	background-color: #5A5A5A;
+	padding: 10px;
+	width: 900px;
+	margin: 0 auto;
+}
+
+.menubar li
+{
+
+	display: inline-block;
+}
+
+.menubar li a
+{
+	text-decoration: none;
+	padding-right: 30px;
+	font-size: 15;
+	color: whitesmoke;
+}
+
+.menubar li a:hover:not(.active) {
+  background-color: #77777e;
+  padding: 10px;
+}
+
+
+.active
+{
+	background-color: #333333;
+	padding: 10px;
+}
+
+marquee 
+{
+  height: 100px;
+  overflow: auto;
+  font-size: 42px;
+  font-family: cooper black; 
+ 	background-color: #00001a;
+  color: whitesmoke;
+  top: 0;
+  left: 0;
+  right: 0;
+ 	z-index: -1; /* Set a negative z-index to position the marquee behind other elements */
+}
+
+.hr1
+{
+	border-top: 3px solid whitesmoke;
+}
+
+.hr2
+{
+	border-top: 3px double white;
+}
+
+.footer
+{
+	text-align: center;
+	background-color: black;
+	color: whitesmoke;
+	padding: 20px;
+	font-size: 20px;
+}
+
+.slide
+{
+	margin: 0px;
+}
+
+.space
+{
+	padding-top: 225px;
+}
+
+.info
+{
+	border: 5px solid black;
+	width: 500px;
+	font-size: 20px;
+	padding: 20px;
+	background: linear-gradient(to left, #ffdf80 0%, #997300 100%);
+	font-weight: bold;
+	border-radius: 20px;
+}
+
+.content
+{
+	padding-top: 200px;
+}
+
+.sub
+{
+	padding-left: 20px;
+}
+
+.er1
+{
+	float: left;
+	display: inline-block;
+}
+
+.er1 img
+{
+	width: 250px;
+	height: 150px;
+	border: 5px solid black;
+	border-radius: 20px;
+}
+
+
+.er2
+{
+	float: left;
+	display: inline-block;
+	padding-left: 50px;
+}
+
+.er2 img
+{
+	width: 250px;
+	height: 150px;
+	border: 5px solid black;
+	border-radius: 20px;
+}
+
+.er3
+{
+	float: left;
+	display: inline-block;
+	padding-left: 50px;
+}
+
+.er3 img
+{
+	width: 250px;
+	height: 150px;
+	background-color: whitesmoke;
+	border: 5px solid black;
+	border-radius: 20px;
+}
+
+.r1
+{
+	text-align: center;
+	background-color: whitesmoke;
+	border: 2px solid black;
+	border-radius: 20px;
+	padding: 8px;
+}
+
+.r2
+{
+	text-align: center;
+	background-color: whitesmoke;
+	border: 2px solid black;
+	border-radius: 20px;
+	padding: 8px;
+}
+
+.r3
+{
+	text-align: center;
+	background-color: whitesmoke;
+	border: 2px solid black;
+	border-radius: 20px;
+	padding: 8px;
+}

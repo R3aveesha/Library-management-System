@@ -1,0 +1,79 @@
+<html>
+	<head>
+	    <link rel="stylesheet" href="Style/Ask Librarian.css">
+		<title>IABT University Library</title>
+		<link rel="icon" type="image/jpg" href="iwt/logo.jpg" sizes="32x32">
+		
+		<script type="text/javascript" src="Register.js"></script>
+	</head>
+
+
+	<body class="body">
+		<header class="h">
+			<img class="hb" src=""> 
+			<img class="img1" src="img/logo3.jpeg" alt="logo">
+			<img class="img2" src="img/avatar.png" alt="avatar">
+			<a class="login" href="login.html">Login</a>
+			<a class="reg" href="Register.html" >Register</a>
+			<h1 class="header">IABT UNIVERSITY LIBRARY</h1>
+
+			<!-- menu bar design -->
+			<ul class="menubar">
+				<li><a href="Home.php" >Home</a></li>
+            <li><a href="search.php">Search</a></li>
+            <li><a href="facilities.php">Facilities</a></li>
+            <li><a href="membership.php">Membership</a></li>
+            <li><a href="aboutus.php">About Us</a></li>
+            <li><a href="new arivals1.php">New Arrivals</a></li>
+            <li><a href="myprofile.php">My Profile</a></li>
+            <li><a href="Ask Librarian.html"  class="active">Ask Librarian</a></li>
+        </ul>
+			</ul>
+			
+		</header>
+		<hr class="hr1">
+	       <main class="content">
+		    
+			<div class="questions_page">
+				        <center>
+                        <h1>ASK LIBRARIAN</h1>
+          <form action="Ask Librarian.php" method="post">
+                
+                <input type="hidden" name="record_id">
+                <label for="User-ID" >LIBRARY ID</label><br>
+                <input type="text" name="library_id" placeholder="Enter Your user ID Here" required ><br>
+                <label for="User-Mail">User E-mail</label><br>
+                <input type="text" name="user_email" placeholder="Enter Your E-mail Here" required><br>
+                <br>
+        <label for="Message-Librarian">Type what your message for Librarian:</label>
+
+                <textarea id="Message-Librarian" name="message_librarian" rows="20" cols="100" required>
+                IABT Library is always user friendly firstly.Type what your concerns for Librarian here directly.
+                </textarea>
+        
+                
+                <br>
+                <br>
+                <input type="submit" name="submit" value="Submit">
+                </center>
+
+                </form>
+        <a href="update_page.html">      
+        <button>Update</button> 
+        </a>   
+        <button>Delete</button> 
+          <br>
+          <br>            
+         <p1 >For Inquiries dial +94  117543181   || </p1>
+         <p2>  Physically Opening Hours:Everyday 8.30 a.m - 7.00 p.m.</p2><br>
+
+        </main>
+		<hr class="hr2">
+		<footer>
+			<h3 class="footer">IABT UNIVERSITY LIBRARY<br>
+				Bandaranayake road,<br>
+				Colombo 05.
+			</h3>
+		</footer>
+	</body>
+</html>

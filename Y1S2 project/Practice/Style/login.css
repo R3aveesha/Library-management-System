@@ -1,0 +1,162 @@
+.body{
+  display: box;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+    
+.container-1 
+{
+      width: 500px;
+      background-color: #fff;
+      padding:100px; 
+      margin: 0 auto;
+      margin-top: 50px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+    
+h3
+{
+  line-height: 0px;
+  margin: 8px;
+}
+
+.o
+{
+  width: 300px;
+    margin-left: 550px;
+    padding: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 160px;
+}
+    
+.LO
+{
+    width: 100%;
+    padding: 12px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+    
+.bu
+{
+    width: 100%;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+    
+h1
+{
+  margin-left: 520px;
+}
+    
+ .h
+{
+  background:linear-gradient(to bottom, #ffdf80 0%, #997300 100%);
+  position: fixed;
+  width: 100%;
+}
+
+.img1
+{
+  margin-right: 10px;
+  padding-left: 50px;
+  padding-top: 10px;
+  width: 150px;
+  height:150px;
+}
+
+.img2
+{
+  top: 0px;
+  float: right;
+  width: 60px;
+  height: 60px;
+  padding-top: 10px;
+  padding-right:20px;
+}
+
+.header
+{
+  position: fixed;
+  top: 20px;
+  left: 580px;
+  font-size: 50;
+  font-family: Britannic;
+  text-align: center;
+}
+
+.login
+{
+  top: 0px;
+  text-decoration: none;
+  float: right;
+  padding: 15px;
+  font-size: 20px;
+}
+
+.reg
+{
+  top: 0px;
+  text-decoration: none;
+  float: right;
+  padding: 15px;
+  font-size: 20px;
+  padding-right: 21pxs;
+}
+
+.menubar
+{
+  list-style-type: none;
+  text-align: center;
+  background-color: #5A5A5A;
+  padding: 10px;
+  width: 900px;
+  margin: 0 auto;
+}
+
+.menubar li
+{
+
+  display: inline-block;
+}
+
+.menubar li a
+{
+  text-decoration: none;
+  padding-right: 30px;
+  font-size: 15;
+  color: whitesmoke;
+}
+
+.menubar li a:hover:not(.active) {
+  background-color: #77777e;
+  padding: 10px;
+}
+
+
+.active
+{
+  background-color: #333333;
+  padding: 10px;
+}
+
+
+.footer
+{
+  text-align: center;
+  background-color: black;
+  color: whitesmoke;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.content
+{
+  padding-top: 200px;
+}
